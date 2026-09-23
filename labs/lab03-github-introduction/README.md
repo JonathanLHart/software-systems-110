@@ -60,14 +60,14 @@ Complete all of the following in your notes section.
 
 ## Checklist
 
-- [ ] Create at least three headers (Level 1, Level 2, Level 3)
-- [ ] Include one horizontal rule
-- [ ] Use bold text
-- [ ] Use italic text
-- [ ] Create a bullet list containing at least three items
-- [ ] Create a numbered list containing at least three items
-- [ ] Create a task list containing at least three tasks
-- [ ] Add a hyperlink with your GitHub profile
+- [x] Create at least three headers (Level 1, Level 2, Level 3)
+- [x] Include one horizontal rule
+- [x] Use bold text
+- [x] Use italic text
+- [x] Create a bullet list containing at least three items
+- [x] Create a numbered list containing at least three items
+- [x] Create a task list containing at least three tasks
+- [x] Add a hyperlink with your GitHub profile
 
 ## Instructions
 
@@ -84,5 +84,28 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
+# IT & Software Development
 
+## Software Systems
+
+### Internet & Web Fundamentals
+
+ ---
+
+**Important information**
+
+*special information*
+
+- How does accessing a website work?
+- What is source code?
+- What are clients and servers?
+
+1. Like Magic!
+2. It's the basis of all that is living.
+3. People of importance and the help that takes their orders.
+
+- [] Start
+- [] Stop
+- [x] Maybe
+
+[Github] (https://github.com/JonathanLHart)
