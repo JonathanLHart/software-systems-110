@@ -108,4 +108,4 @@ Complete all of the following in your notes section.
 - [ ] Stop
 - [x] Maybe
 
-[Github] (https://github.com/JonathanLHart)
+[Github](https://github.com/JonathanLHart)
