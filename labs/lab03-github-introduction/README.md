@@ -104,8 +104,8 @@ Complete all of the following in your notes section.
 2. It's the basis of all that is living.
 3. People of importance and the help that takes their orders.
 
-- [] Start
-- [] Stop
+- [ ] Start
+- [ ] Stop
 - [x] Maybe
 
 [Github] (https://github.com/JonathanLHart)
