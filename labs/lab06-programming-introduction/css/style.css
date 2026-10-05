@@ -70,8 +70,8 @@ body {
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #ff66cc,
-        0 0 30px rgba(255, 102, 204, 0.35);
+        0 0 15px #6670ff,
+        0 0 30px rgba(105, 102, 255, 0.35);
 }
 
 /* ===== Headings ===== */
@@ -83,16 +83,16 @@ h3 {
 }
 
 h1 {
-    color: #ff66cc;
+    color: #6669ff;
 
     margin-top: 0;
     margin-bottom: 20px;
 
-    text-shadow: 0 0 4px rgba(255, 102, 204, 0.25);
+    text-shadow: 0 0 4px rgba(102, 150, 255, 0.25);
 }
 
 h2 {
-    color: #66e6ff;
+    color: #ff6666;
 
     margin-top: 30px;
 
@@ -100,7 +100,7 @@ h2 {
 }
 
 h3 {
-    color: #ffb347;
+    color: #8aff47;
 
     margin-top: 0;
     margin-bottom: 15px;
@@ -116,7 +116,7 @@ p {
 }
 
 strong {
-    color: #ffb347;
+    color: #f3ff47;
 }
 
 /* ===== Variable Cards ===== */
@@ -135,11 +135,11 @@ strong {
 
     background: rgba(0, 0, 0, 0.20);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #667dff;
     border-radius: 8px;
 
     box-shadow:
-        0 0 10px rgba(255, 102, 204, 0.25);
+        0 0 10px rgba(255, 171, 102, 0.322);
 }
 
 /* ===== Labels ===== */
@@ -162,22 +162,22 @@ select {
 
     color: white;
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #8766ff;
     border-radius: 6px;
 
     font-size: 1rem;
     font-family: inherit;
 
     box-shadow:
-        0 0 8px rgba(255, 102, 204, 0.5);
+        0 0 8px rgba(133, 255, 102, 0.5);
 
     outline: none;
 }
 
 select:focus {
     box-shadow:
-        0 0 12px #ff66cc,
-        0 0 20px rgba(255, 102, 204, 0.5);
+        0 0 12px #7066ff,
+        0 0 20px rgba(156, 102, 255, 0.5);
 }
 
 /* ===== Button ===== */
@@ -189,7 +189,7 @@ button {
 
     background: linear-gradient(
         to right,
-        #ff0088,
+        #1100ff,
         #ff7a18
     );
 
@@ -207,7 +207,7 @@ button {
     cursor: pointer;
 
     box-shadow:
-        0 0 12px rgba(255, 0, 136, 0.6);
+        0 0 12px rgba(35, 28, 77, 0.6);
 
     transition: all 0.2s ease;
 }
@@ -216,8 +216,8 @@ button:hover {
     transform: translateY(-2px);
 
     box-shadow:
-        0 0 18px rgba(255, 0, 136, 0.8),
-        0 0 30px rgba(255, 0, 136, 0.4);
+        0 0 18px rgba(0, 26, 255, 0.8),
+        0 0 30px rgba(0, 255, 42, 0.4);
 }
 
 /* ===== Output ===== */
@@ -231,7 +231,7 @@ button:hover {
 
     background-color: rgba(0, 0, 0, 0.4);
 
-    border: 2px solid #66e6ff;
+    border: 2px solid #fcff66;
     border-radius: 6px;
 
     color: #ffffff;

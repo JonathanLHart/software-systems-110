@@ -17,17 +17,17 @@
 
             <div class="rules">
 
-                If doISayHello is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Hello, World!"<br><br>
+                If doISayWhuzzup is true<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Whuzzup!"<br><br>
 
-                Otherwise, if doISayGoodbye is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Goodbye, World!"<br><br>
+                Otherwise, if doISayNotToday is true<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Not Today, World!"<br><br>
 
                 Otherwise<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Why am I even out here? It's cold."<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "It's cold and I Love IT."<br><br>
 
                 Always<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are going inside now.
+                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are NEVER going inside EVER!.
 
             </div>
 
@@ -57,11 +57,11 @@
                     <h3>Hello Option</h3>
 
                     <p>
-                        Should I say "Hello, World!"?
+                        Should I say "Wuzzup!"?
                     </p>
 
                     <label for="helloInput">
-                        Set <strong>doISayHello</strong> to:&nbsp;
+                        Set <strong>Wuzzup!</strong> to:&nbsp;
                     </label>
 
                     <select id="helloInput">
@@ -76,11 +76,11 @@
                     <h3>Goodbye Option</h3>
 
                     <p>
-                        Should I say "Goodbye, World!"?
+                        Should I say "Not Today, World!"?
                     </p>
 
                     <label for="goodbyeInput">
-                        Set <strong>doISayGoodbye</strong> to:&nbsp;
+                        Set <strong>doISayNotToday</strong> to:&nbsp;
                     </label>
 
                     <select id="goodbyeInput">
@@ -145,7 +145,7 @@
                 doISayHello = true
                 doISayGoodbye = true
              
-                Observation:
+                Observation:program output displays Hello, World! and I am tired of being outside. I am going inside now.
             
                 ***********************************************************************
                 
@@ -153,7 +153,7 @@
                 doISayHello = false
                 doISayGoodbye = false
              
-                Observation:
+                Observation: the program output displays Why am I even out here? It's cold. and I am tired of being outside. I am going inside now.
             
                 ***********************************************************************
 
@@ -161,7 +161,7 @@
                 doISayHello = true
                 doISayGoodbye = false
              
-                Observation:
+                Observation:the program output displays Hello, World! and I am tired of being outside. I am going inside now.
 
                 ***********************************************************************    
 
@@ -169,7 +169,7 @@
                 doISayHello = false
                 doISayGoodbye = true
              
-                Observation:
+                Observation:the program output displays Goodbye, World! and I am tired of being outside. I am going inside now.
                 
             */
     
@@ -190,12 +190,12 @@
             } else {
 
                 // Assign a default message.
-                message = "Why am I even out here? It's cold.";
+                message = "Welcome to Wisconsin! It's cold and I LOVE it.";
 
             }
 
             // Assign a message that always displays.
-            finalMessage = "I am tired of being outside. I am going inside now.";
+            finalMessage = "I LOVE being outside. I am NEVER going inside EVER!.";
 
             displayMessages(message, finalMessage);
 
